@@ -1,0 +1,1660 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.min.css">
+  <title>Магазин автозапчастей</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="visually-hidden">Магазин автозапчастей</h1>
+    <div class="header__top header-top">
+      <ul class="header-top__list">
+        <li class="header-top__item">
+          <button class="header-top__toggle"></button>
+          <ul class="header-top__navigation invisible">
+            <li class="invisible__item">
+              <a href="" class="invisible__link">Войти</a>
+            </li>
+            <li class="invisible__item">
+              <a href="" class="invisible__link">Регистрация</a>
+            </li>
+            <li class="invisible__item">
+              <a href="" class="invisible__link">Избранное</a>
+            </li>
+            <li class="invisible__item">
+              <a href="" class="invisible__link">Магазины</a>
+            </li>
+            <li class="invisible__item">
+              <a href="" class="invisible__link">Акции</a>
+            </li>
+            <li class="invisible__item">
+              <a href="" class="invisible__link">Доставка и оплата</a>
+            </li>
+            <li class="invisible__item">
+              <a href="" class="invisible__link">Каталог запчастей</a>
+            </li>
+            <li class="invisible__item">
+              <a href="" class="invisible__link">Каталог ТО</a>
+            </li>
+            <li class="invisible__item">
+              <a href="" class="invisible__link">Шины</a>
+            </li>
+            <li class="invisible__item">
+              <a href="" class="invisible__link">Диски</a>
+            </li>
+            <li class="invisible__item">
+              <a href="" class="invisible__link">Аккумуляторы</a>
+            </li>
+            <li class="invisible__item">
+              <a href="" class="invisible__link">Автомасла</a>
+            </li>
+            <li class="invisible__item">
+              <a href="" class="invisible__link">Автолампы</a>
+            </li>
+            <li class="invisible__item">
+              <a href="" class="invisible__link">Аксессуары</a>
+            </li>
+            <li class="invisible__item">
+              <a href="" class="invisible__link invisible__link--address">Санкт-Петербург, ул Большая Коннюшенная, д 19</a>
+            </li>
+          </ul>
+        </li>
+        <li class="header-top__item">
+          <a class="header-top__link" href="index.html">
+            <img src="img/svg/logo-icon.svg" width="69.47" height="38.21" alt="Логотип нашего магазина">
+          </a>
+        </li>
+        <li class="header-top__item">
+          <ul class="header-top__users users">
+            <li class="users__item">
+              <a href="" class="users__link" alt="Избранное">
+                <svg class="users__icon" width="23" height="20.81">
+                  <use xlink:href="img/sprite_auto.svg#heart"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="users__item">
+              <a href="" class="users__link" alt="Личный кабинет">
+                <svg class="users__icon" width="20.7" height="23.51">
+                  <use xlink:href="img/sprite_auto.svg#user"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="users__item">
+              <a href="" class="users__link" alt="Корзина">
+                <svg class="users__icon" width="25.4" height="21.63">
+                  <use xlink:href="img/sprite_auto.svg#cart"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="header__bottom header-bottom">
+      <nav class="header-bottom__navigation navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="" class="navigation__link">Каталог запчастей</a></li>
+          <li class="navigation__item"><a href="" class="navigation__link">Каталог ТО</a></li>
+          <li class="navigation__item"><a href="tires.html" class="navigation__link">Шины</a></li>
+          <li class="navigation__item"><a href="product-page.html" class="navigation__link">Диски</a></li>
+          <li class="navigation__item"><a href="" class="navigation__link">Аккумуляторы</a></li>
+          <li class="navigation__item"><a href="" class="navigation__link">Автомасла</a></li>
+          <li class="navigation__item"><a href="" class="navigation__link">Автолампы</a></li>
+          <li class="navigation__item"><a href="" class="navigation__link">Аксессуары</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="catalog-main catalog">
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs__item">
+        <a href="index.html" class="breadcrumbs__link">Главная</a>
+      </li>
+      <li class="breadcrumbs__item">
+        <a href="" class="breadcrumbs__link">Шины</a>
+      </li>
+      <li class="breadcrumbs__item">
+        <a href="#" class="breadcrumbs__link">Шины зимние</a>
+      </li>
+    </ul>
+    <h1 class="catalog__title">Нешипованные шины</h1>
+    <section class="filters">
+      <div class="filters__offers filters-offers">
+        <ul class="filter-offers__list">
+          <li class="filter-offers__item">
+            <button class="filter-offers__button" type="button">Полноприводные</button>
+          </li>
+          <li class="filter-offers__item">
+            <button class="filter-offers__button" type="button">от 5000</button>
+          </li>
+          <li class="filter-offers__item">
+            <button class="filter-offers__button" type="button">Nokia</button>
+          </li>
+          <li class="filter-offers__item">
+            <button class="filter-offers__button" type="button">до 5000</button>
+          </li>
+          <li class="filter-offers__item">
+            <button class="filter-offers__button" type="button">ещё</button>
+          </li>
+        </ul>
+      </div>
+      <div class="filters__sort filter-sort">
+        <select name="" id="" class="filter-sort__select">
+          <option class="filter-sort__option filter-sort__option--from">По популярности</option>
+          <option class="filter-sort__option filter-sort__option--before">По популярности</option>
+          <option class="filter-sort__option filter-sort__option--expensive">По цене</option>
+          <option class="filter-sort__option filter-sort__option--cheap">По цене</option>
+        </select>
+        <div class="filter-sort__view-block">
+          <a href="#" class="filter-sort__view">
+            <svg class="filter-sort__view-icon" width="23" height="21">
+              <use xlink:href="img/sprite_auto.svg#table"></use>
+            </svg>
+          </a>
+          <a href="#" class="filter-sort__view">
+            <svg class="filter-sort__view-icon" width="25" height="19">
+              <use xlink:href="img/sprite_auto.svg#list"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <form action="" class="left-filter">
+        <button class="left-filter__button">Пвраметры</button>
+        <button class="left-filter__button">По марке</button>
+        <fieldset class="left-filter__sezons sezons">
+          <legend for="" class="sezons__label">Сезонность</legend>
+          <button class="sezons__button" type="button"></button>
+          <ul class="sezons__list">
+            <li class="sezons__item">
+              <input type="checkbox" class="sezons__input sezons__input--winter" name="winter" id="tires-winter">
+              <label class="sezons__legend" for="winter">Зиминие</label>
+            </li>
+            <li class="sezons__item">
+              <input type="checkbox" class="sezons__input sezons__input--sun" name="sun" id="tires-sun">
+              <label class="sezons__legend" for="sun">Летние</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="left-filter__type type">
+          <legend class="type__legend">Тип шин</legend>
+          <button class="type__button"></button>
+          <ul class="type__list">
+            <li class="type__item">
+              <input type="checkbox" class="type__input" id="tires-all" name="all">
+              <label for="tires-all" class="type__label">Все</label>
+            </li>
+            <li class="type__item">
+              <input type="checkbox" class="type__input" id="tires-studded" name="studded">
+              <label for="tires-studded" class="type__label">Шипованные</label>
+            </li>
+            <li class="type__item">
+              <input type="checkbox" class="type__input" id="tires-not-studded" name="not-studded">
+              <label for="tires-not-studded" class="type__label">Нешипованные</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="left-filter__price price">
+          <legend class="price__legend">Цена</legend>
+          <button class="price__button"></button>
+          <div class="price__range-block">
+            <input type="range" class="price__range" min="2000" max="30000" step="100" value="8000">
+          </div>
+          <ul class="price__range-value range-value">
+            <h3 class="visually-hidden">Укажите ценовой диапазон</h3>
+            <li class="range-value__item">
+              <label for="range-min" class="range-value__label">От</label>
+              <input type="number" class="range-value__min" id="range-min" name="range-min" min="2000" max="30000" step="100" value="2000">
+            </li>
+            <li class="range-value__item">
+              <label for="range-max" class="range-value__label">До</label>
+              <input type="text" class="range-value__" id="range-max" name="range-max" min="2000" max="30000" step="100" value="12000">
+            </li>
+          </ul>
+        </fieldset>
+        <div class="left-filter__diameter diameter">
+          <label for="diameter-select" class="diameter__label">Диаметр</label>
+          <button class="diameter__question" type="button"></button>
+          <select name="diameter-select" id="diameter-select" class="diameter__select">
+            <option value="10" class="diameter__option">10</option>
+            <option value="12" class="diameter__option">12</option>
+            <option value="12C" class="diameter__option">12C</option>
+            <option value="14" class="diameter__option">14</option>
+            <option value="14C" class="diameter__option">14C</option>
+            <option value="15" class="diameter__option">15</option>
+            <option value="15C" class="diameter__option">15C</option>
+            <option value="16" class="diameter__option">16</option>
+            <option value="16C" class="diameter__option">16C</option>
+            <option value="17C" class="diameter__option">17C</option>
+            <option value="18" class="diameter__option">18</option>
+            <option value="18C" class="diameter__option">18</option>
+            <option value="19" class="diameter__option">19</option>
+            <option value="20" class="diameter__option">20</option>
+            <option value="21" class="diameter__option">21</option>
+            <option value="22" class="diameter__option">22</option>
+            <option value="23" class="diameter__option">23</option>
+            <option value="24" class="diameter__option">24</option>
+            <option value="25" class="diameter__option">25</option>
+            <option value="8" class="diameter__option">8</option>
+          </select>
+        </div>
+        <div class="left-filter__profile profile">
+          <label for="profile-select" class="profile__label">Профиль</label>
+          <button class="profile__question" type="button"></button>
+          <select name="profile-select" id="profile-select" class="profile__select">
+            <option value="10" class="profile__option">10</option>
+            <option value="12" class="profile__option">12</option>
+            <option value="12C" class="profile__option">12C</option>
+            <option value="14" class="profile__option">14</option>
+            <option value="14C" class="profile__option">14C</option>
+            <option value="15" class="profile__option">15</option>
+            <option value="15C" class="profile__option">15C</option>
+            <option value="16" class="profile__option">16</option>
+            <option value="16C" class="profile__option">16C</option>
+            <option value="17C" class="profile__option">17C</option>
+            <option value="18" class="profile__option">18</option>
+            <option value="18C" class="profile__option">18</option>
+            <option value="19" class="profile__option">19</option>
+            <option value="20" class="profile__option">20</option>
+            <option value="21" class="profile__option">21</option>
+            <option value="22" class="profile__option">22</option>
+            <option value="23" class="profile__option">23</option>
+            <option value="24" class="profile__option">24</option>
+            <option value="25" class="profile__option">25</option>
+            <option value="8" class="profile__option">8</option>
+          </select>
+        </div>
+        <div class="left-filter__width width">
+          <label for="width-select" class="width__label">Ширина</label>
+          <button class="width__question" type="button"></button>
+          <select name="width-select" id="width-select" class="width__select">
+            <option value="10" class="width__option">10</option>
+            <option value="12" class="width__option">12</option>
+            <option value="12C" class="width__option">12C</option>
+            <option value="14" class="width__option">14</option>
+            <option value="14C" class="width__option">14C</option>
+            <option value="15" class="width__option">15</option>
+            <option value="15C" class="width__option">15C</option>
+            <option value="16" class="width__option">16</option>
+            <option value="16C" class="width__option">16C</option>
+            <option value="17C" class="width__option">17C</option>
+            <option value="18" class="width__option">18</option>
+            <option value="18C" class="width__option">18</option>
+            <option value="19" class="width__option">19</option>
+            <option value="20" class="width__option">20</option>
+            <option value="21" class="width__option">21</option>
+            <option value="22" class="width__option">22</option>
+            <option value="23" class="width__option">23</option>
+            <option value="24" class="width__option">24</option>
+            <option value="25" class="width__option">25</option>
+            <option value="8" class="width__option">8</option>
+          </select>
+        </div>
+        <fieldset class="left-filter__brand brand">
+          <legend class="brend__legend">Бренд</legend>
+          <button class="brend__button"></button>
+          <ul class="brend__input-list">
+            <li class="brend__item">
+              <input type="search" class="brend__search" placeholder="Введите бренд шины" id="brend-search" name="brend-search">
+            </li>
+            <li class="brend__item">
+              <ul class="brend__name-list">
+                <li class="brend__name-item">
+                  <input type="checkbox" class="brend__name-input" id="B-Gudrich" name="B-Gudrich">
+                  <label for="B-Gudrich" class="brend__name-label">B Gudrich</label>
+                </li>
+                <li class="brend__name-item">
+                  <input type="checkbox" class="brend__name-input" id="Wridrestor" name="Wridrestor">
+                  <label for="Wridrestor" class="brend__name-label">Wridrestor</label>
+                </li>
+                <li class="brend__name-item">
+                  <input type="checkbox" class="brend__name-input" id="Rarym" name="Rarym">
+                  <label for="Rarym" class="brend__name-label">Rarym</label>
+                </li>
+                <li class="brend__name-item">
+                  <input type="checkbox" class="brend__name-input" id="BF-hide" name="BF-hide">
+                  <label for="BF-hide" class="brend__name-label">BF hide</label>
+                </li>
+                <li class="brend__name-item">
+                  <input type="checkbox" class="brend__name-input" id="Nokian" name="Nokian">
+                  <label for="Nokian" class="brend__name-label">Nokian</label>
+                </li>
+                <li class="brend__name-item">
+                  <input type="checkbox" class="brend__name-input" id="Michelin" name="Michelin">
+                  <label for="Michelin" class="brend__name-label">Michelin</label>
+                </li>
+                <li class="brend__name-item">
+                  <input type="checkbox" class="brend__name-input" id="Pirelli" name="Pirelli">
+                  <label for="Pirelli" class="brend__name-label">Pirelli</label>
+                </li>
+                <li class="brend__name-item">
+                  <input type="checkbox" class="brend__name-input" id="Cordiant" name="Cordiant">
+                  <label for="Cordiant" class="brend__name-label">Cordiant</label>
+                </li>
+              </ul>
+              <button class="brend__name-button">Показать ещё</button>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="left-filter__model model">
+          <legend class="model__legend">Модель</legend>
+          <button class="model__button"></button>
+          <ul class="model__input-list">
+            <li class="model__item">
+              <input type="search" class="model__search" placeholder="Введите модель шины" id="model-search" name="model-search">
+            </li>
+            <li class="model__item">
+              <ul class="model__name-list">
+                <li class="model__name-item">
+                  <input type="checkbox" class="model__name-input" id="E-Primacy" name="E-Primacy">
+                  <label for="E-Primacy" class="model__name-label">E Primacy</label>
+                </li>
+                <li class="model__name-item">
+                  <input type="checkbox" class="model__name-input" id="Pilot" name="Pilot">
+                  <label for="Pilot" class="model__name-label">Pilot</label>
+                </li>
+                <li class="model__name-item">
+                  <input type="checkbox" class="model__name-input" id="Energy" name="Energy">
+                  <label for="Energy" class="model__name-label">Energy</label>
+                </li>
+                <li class="model__name-item">
+                  <input type="checkbox" class="model__name-input" id="CrossClimate" name="CrossClimate">
+                  <label for="CrossClimate" class="model__name-label">CrossClimate</label>
+                </li>
+                <li class="model__name-item">
+                  <input type="checkbox" class="model__name-input" id="Latitude" name="Latitude">
+                  <label for="Latitude" class="model__name-label">Latitude</label>
+                </li>
+                <li class="model__name-item">
+                  <input type="checkbox" class="model__name-input" id="Agilis" name="Agilis">
+                  <label for="Agilis" class="model__name-label">Agilis</label>
+                </li>
+                <li class="model__name-item">
+                  <input type="checkbox" class="model__name-input" id="Diamaris" name="Diamaris">
+                  <label for="Diamaris" class="model__name-label">Diamaris</label>
+                </li>
+                <li class="model__name-item">
+                  <input type="checkbox" class="model__name-input" id="Sport" name="Sport">
+                  <label for="Sport" class="model__name-label">Sport</label>
+                </li>
+              </ul>
+              <button class="model__name-button">Показать ещё</button>
+            </li>
+          </ul>
+        </fieldset>
+        <div class="left-filter__technology technology">
+          <h2 class="technology__title">Технология</h2>
+          <button class="technology__button" type="button"></button>
+          <ul class="technology__list">
+            <li class="technology__item">
+              <input type="radio" class="technology__input" id="technology-yes" name="technology">
+              <label for="technology-yes" class="technology__label">Да</label>
+            </li>
+            <li class="technology__item">
+              <input type="radio" class="technology__input" id="technology-not" name="technology">
+              <label for="technology-not" class="technology__label">Нет</label>
+            </li>
+          </ul>
+        </div>
+        <fiedset class="left-filter__action action">
+          <legend class="action__legend">Акции</legend>
+          <ul class="action__list">
+            <li class="action__item">
+              <input type="checkbox" class="action__input" id="action-sale" name="action-sale">
+              <label for="action-sale" class="action__label action__label--sale">Sale</label>
+            </li>
+            <li class="action__item">
+              <input type="checkbox" class="action__input" id="action-new" name="action-new">
+              <label for="action-new" class="action__label action__label--new">New</label>
+            </li>
+            <li class="action__item">
+              <input type="checkbox" class="action__input" id="action-hit" name="action-hit">
+              <label for="action-hit" class="action__label action__label--hit">Hit</label>
+            </li>
+            <li class="action__item">
+              <input type="checkbox" class="action__input" id="action-present" name="action-present">
+              <label for="action-present" class="action__label action__label--present">Подарок</label>
+            </li>
+          </ul>
+        </fiedset>
+        <fieldset class="left-filter__country country">
+          <legend class="country__legend">Страны</legend>
+          <ul class="country__list">
+            <li class="country__item">
+              <input type="checkbox" class="country__input" id="country-russia" name="country-russia">
+              <label for="country-russia" class="country__label">Россия</label>
+            </li>
+            <li class="country__item">
+              <input type="checkbox" class="country__input" id="country-germany" name="country-germany">
+              <label for="country-germany" class="country__label">Германия</label>
+            </li>
+            <li class="country__item">
+              <input type="checkbox" class="country__input" id="country-italy" name="country-italy">
+              <label for="country-italy" class="country__label">Италия</label>
+            </li>
+            <li class="country__item">
+              <input type="checkbox" class="country__input" id="country-china" name="country-china">
+              <label for="country-china" class="country__label">Китай</label>
+            </li>
+          </ul>
+          <button class="country__button" type="button">Показать ещё</button>
+        </fieldset>
+        <div class="left-filter__submit filter-submit">
+          <button class="filter-button filter-button__pick-up" type="submit">Подобрать</button>
+          <button class="filter-button filter-button__add" type="button">Дополнительные параметры</button>
+          <button class="filter-button filter-button__reset" type="reset">Сбросить фильтр</button>
+        </div>
+      </form>
+      <section class="catalog__block">
+        <ul class="catalog__list">
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/instruments/n-1.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/instruments/n-2.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/instruments/n-3.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/instruments/n-4.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/instruments/n-5.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/instruments/n-6.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/audio/a-1.webp" srcset="img/audio/a-1.jpg" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/audio/a-2.webp" srcset="img/audio/a-2.jpg" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/audio/a-3.webp" srcset="img/audio/a-3.jpg" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/audio/a-3.webp" srcset="img/audio/a-3.jpg" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/audio/a-4.webp" srcset="img/audio/a-4.png" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/audio/a-5.webp" srcset="img/audio/a-5.jpg" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/audio/a-6.webp" srcset="img/audio/a-6.png" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/chemistry/h-1.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/chemistry/h-2.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/chemistry/h-3.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/chemistry/h-4.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/chemistry/h-5.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/chemistry/h-6.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/disck/d-1.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/disck/d-2.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/disck/d-3.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/disck/d-4.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/disck/d-5.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/disck/d-6.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/electrick/e-1.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/electrick/e-2.webp" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/electrick/e-3.webp" srcset="img/electrick/e-3.jpg" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/electrick/e-4.webp" srcset="img/electrick/e-4.jpg" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/electrick/e-5.webp" srcset="img/electrick/e-5.jpg" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/electrick/e-6.webp" srcset="img/electrick/e-6.jpg" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/parts/z-1.webp" srcset="img/parts/z-1.jpg" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/parts/z-2.webp" srcset="img/parts/z-2.jpg" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/parts/z-3.webp" srcset="img/parts/z-3.jpg" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/parts/z-4.webp" srcset="img/parts/z-4.jpg" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__card card">
+              <h3 class="card__title"></h3>
+              <ul class="card__icons-list">
+                <li class="card__icons-item">
+                  <svg class="card__icons-icon card__icons-like">
+                    <use xlink:href="img/sprite_auto.svg#heart" width="25" height="22" alt="Добавить в избранное"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="card__body">
+                  <a href="" class="card__link">Быстрый просмотр</a>
+                  <img src="img/parts/z-5.webp" srcset="img/parts/z-5.jpg" alt="" width="230" class="card__body-image">
+                  <p class="card__body-name"></p>
+              </div>
+              <div class="card__footer">
+                <div class="card__in-stock">
+                  <span class="card__footer-price"></span>
+                    <button class="card__footer-button">
+                      <svg class="card__footer-icon" width="60" height="40">
+                        <use xlink:href="img/sprite_auto.svg#add-cart"></use>
+                      </svg>
+                    </button>
+                </div>
+                <div class="card__not-stock not-stock">
+                  <p class="not-stock__text">Нет в наличии</p>
+                  <a href="" class="not-stock">Сообщить о поступлении</a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="pagination">
+          <ul class="pagination__list">
+            <li class="pagination__item"><a href="#" class="pagination__link">1</a></li>
+            <li class="pagination__item"><a href="#" class="pagination__link">2</a></li>
+            <li class="pagination__item"><a href="#" class="pagination__link">3</a></li>
+            <li class="pagination__item"><a href="#" class="pagination__link">4</a></li>
+            <li class="pagination__item"><a href="#" class="pagination__link">5</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <form action="" class="footer__mailing footer-mailing">
+        <h2 class="footer-mailing__title">Подпишитесь на нашу рассылку и узнавайте об акциях быстрее</h2>
+        <div class="footer-mailing__input-container">
+          <input type="email" class="footer-mailing__input" placeholder="Введите ваш e-mail">
+          <input type="submit" value="Отправить">
+        </div>
+        <small class="footer-mailing__small">Интернет-магазин автозапчастей</small>
+      </form>
+      <div class="footer__info-block">
+        <div class="footer__information">
+          <h2 class="footer__information-title">Информация</h2>
+          <button class="footer__information-button" type="button"></button>
+          <ul class="footer__information-list">
+            <li class="footer__information-item">
+              <a href="" class="footer__information-link">О компании</a>
+            </li>
+            <li class="footer__information-item">
+              <a href="" class="footer__information-link">Контакты</a>
+            </li>
+            <li class="footer__information-item">
+              <a href="" class="footer__information-link">Реквизиты</a>
+            </li>
+            <li class="footer__information-item">
+              <a href="" class="footer__information-link">Магазины</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__service">
+          <h2 class="footer__service-title">Сервисный центр</h2>
+          <button class="footer__service-button" type="button"></button>
+          <ul class="footer__service-list">
+            <li class="footer__service-item">
+              <a href="" class="footer__service-link">Доставка и самовывоз</a>
+            </li>
+            <li class="footer__service-item">
+              <a href="" class="footer__service-link">Оплата</a>
+            </li>
+            <li class="footer__service-item">
+              <a href="" class="footer__service-link">Возврат-обмен</a>
+            </li>
+            <li class="footer__service-item">
+              <a href="" class="footer__service-link">Новости</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__magazine">
+          <h2 class="footer__magazine-title">Интернет-магазин</h2>
+          <ul class="footer__magazine-list">
+            <li class="footer__magazine-item">
+              <a href="" class="footer__magazine-link">Доставка и самовывоз</a>
+            </li>
+            <li class="footer__magazine-item">
+              <a href="" class="footer__magazine-link">Оплата</a>
+            </li>
+            <li class="footer__magazine-item">
+              <a href="" class="footer__magazine-link">Возврат-обмен</a>
+            </li>
+            <li class="footer__magazine-item">
+              <a href="" class="footer__magazine-link">Новости</a>
+            </li>
+            <li class="footer__magazine-item">
+              <a href="" class="footer__magazine-link">Акции</a>
+            </li>
+            <li class="footer__magazine-item">
+              <a href="" class="footer__magazine-link">Договор оферты</a>
+            </li>
+            <li class="footer__magazine-item">
+              <a href="" class="footer__magazine-link">Политика обработки персональных данных</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
